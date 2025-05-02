@@ -19,3 +19,19 @@
 // A framework has its own set of rules and guidelines for building applications.
 // We don't have much flexibility in how we build our applications with a framework.
 // example: Angular, Vue.js, etc.
+
+
+"// vIRTUAL DOM"
+// The Virtual DOM (VDOM) is a programming concept where a virtual representation of a UI is kept in memory and synced with the "real" DOM 1  (Document Object Model). Think of it as a lightweight copy of the actual DOM
+
+"What is the benefit of vIRTUAL DOM?"
+
+// Each time we make a change to the UI, React creates a new VDOM and compares it to the previous VDOM. This process is called "reconciliation." React then updates only the parts of the actual DOM that have changed, rather than re-rendering the entire UI. This makes React very efficient and fast.
+
+
+"// JSX syntax"
+// In JSX SyntaxError,we write HTML tags inside JavaScript.
+// In React for example,a simple JavaScript variable can be written as:
+// const name = "John Doe";
+// normally we can't assign an HTML tag to a variable in JavaScript, but in React we can do that using JSX syntax.
+// JSX syntax is a combination of JavaScript and HTML. It allows us to write HTML-like code inside JavaScript files. JSX is not required to use React, but it makes writing React components easier and more readable. JSX is compiled to JavaScript before it is executed in the browser. JSX is not HTML, but it looks like HTML. JSX allows us to write HTML-like code inside JavaScript files. JSX is not required to use React, but it makes writing React components easier and more readable. JSX is compiled to JavaScript before it is executed in the browser.
